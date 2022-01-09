@@ -10,6 +10,7 @@ echo "
 ########################
 "
 sudo apt-get update -y
+sudo apt install gh
 echo "
 ########################
 ###### UPDATE end ######
