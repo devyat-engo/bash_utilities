@@ -74,6 +74,12 @@ sudo apt-get install at -y
 echo "----------exfat installation ends----------"
 sleep 2s
 
+# Installation of network tools
+echo "----------net-tools installation starts----------"
+sudo apt install net-tools -y
+echo "----------net-tools installation ends----------"
+sleep 2s
+
 # Installation of Firewall UFW 
 echo "----------Firewall installation starts----------"
 sudo apt-get install ufw -y
@@ -95,7 +101,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 sudo apt update
 sudo apt install gh -y
 sleep 2s
-echo "----------GitHub installation starts----------"
+echo "----------GitHub installation ends----------"
 
 # Installation of bc (calculator language)
 # sudo apt-get install bc -y
